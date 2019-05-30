@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Capsule CRM Application Automation Suite]">
+  <test name="Capsule CRM Login-Person-Case Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginTest">
+        <methods>
+          <include name="createCaseTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="createNewPersonTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest -->
+      <class name="com.qa.testcases.AccountSettingTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AccountSettingTest -->
+    </classes>
+  </test> <!-- Capsule CRM Login-Person-Case Test(failed) -->
+  <test name="Capsule CRM Login-Account-Setting Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest -->
+      <class name="com.qa.testcases.AccountSettingTest">
+        <methods>
+          <include name="createUserTest"/>
+          <include name="teardown"/>
+          <include name="linksAccountToMailDropsTest"/>
+          <include name="createTagsTest"/>
+          <include name="createTrack"/>
+          <include name="createTaskCategory"/>
+          <include name="custFieldsTest"/>
+          <include name="createOpportunities"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="IntegrationAndTrashTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AccountSettingTest -->
+    </classes>
+  </test> <!-- Capsule CRM Login-Account-Setting Test(failed) -->
+</suite> <!-- Failed suite [Capsule CRM Application Automation Suite] -->

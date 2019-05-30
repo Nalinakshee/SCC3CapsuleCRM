@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Capsule CRM Application Automation Suite" verbose="2">
+	<test name="Capsule CRM Login-Person-Case Test" thread-count="5"
+		preserve-order="true">
+		<classes>
+			<class name="com.qa.testcases.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Capsule CRM Login-Account-Setting Test"
+		thread-count="5" preserve-order="true">
+		<classes>
+			<class name="com.qa.testcases.AccountSettingTest" />
+		</classes>
+	</test>
+</suite>

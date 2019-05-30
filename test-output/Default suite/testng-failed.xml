@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.AccountSettingTest">
+        <methods>
+          <include name="createUserTest"/>
+          <include name="teardown"/>
+          <include name="linksAccountToMailDropsTest"/>
+          <include name="createTagsTest"/>
+          <include name="createTrack"/>
+          <include name="createTaskCategory"/>
+          <include name="custFieldsTest"/>
+          <include name="createOpportunities"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="IntegrationAndTrashTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AccountSettingTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

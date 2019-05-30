@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Capsule CRM Application Automation Suite" duration-ms="92701" started-at="2019-05-30T22:13:52Z" finished-at="2019-05-30T22:15:25Z">
+    <groups>
+    </groups>
+    <test name="Capsule CRM Login-Person-Case Test" duration-ms="33356" started-at="2019-05-30T22:13:52Z" finished-at="2019-05-30T22:14:26Z">
+      <class name="com.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginTest@4e9ba398]" name="setup" is-config="true" duration-ms="13155" started-at="2019-05-31T08:13:52Z" finished-at="2019-05-31T08:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.testcases.LoginTest@4e9ba398]" name="loginTest" duration-ms="4676" started-at="2019-05-31T08:14:06Z" finished-at="2019-05-31T08:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="createNewPersonTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@4e9ba398]" name="createNewPersonTest" duration-ms="9946" started-at="2019-05-31T08:14:11Z" data-provider="getPersonTestData" depends-on-methods="com.qa.testcases.LoginTest.loginTest" finished-at="2019-05-31T08:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nalina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2121213]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[abc@bbb.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPersonTest -->
+        <test-method status="PASS" signature="createCaseTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@4e9ba398]" name="createCaseTest" duration-ms="3518" started-at="2019-05-31T08:14:21Z" data-provider="getCaseTestData" depends-on-methods="com.qa.testcases.LoginTest.createNewPersonTest" finished-at="2019-05-31T08:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nalina Panda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[case for abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tag1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCaseTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTest@4e9ba398]" name="teardown" is-config="true" duration-ms="1213" started-at="2019-05-31T08:14:25Z" finished-at="2019-05-31T08:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.LoginTest -->
+    </test> <!-- Capsule CRM Login-Person-Case Test -->
+    <test name="Capsule CRM Login-Account-Setting Test" duration-ms="59289" started-at="2019-05-30T22:14:26Z" finished-at="2019-05-30T22:15:25Z">
+      <class name="com.qa.testcases.AccountSettingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="setup" is-config="true" duration-ms="7173" started-at="2019-05-31T08:14:26Z" finished-at="2019-05-31T08:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="loginTest" duration-ms="4422" started-at="2019-05-31T08:14:33Z" finished-at="2019-05-31T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="linksAccountToMailDropsTest()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="linksAccountToMailDropsTest" duration-ms="10017" started-at="2019-05-31T08:14:37Z" depends-on-methods="com.qa.testcases.AccountSettingTest.loginTest" finished-at="2019-05-31T08:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linksAccountToMailDropsTest -->
+        <test-method status="PASS" signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createUserTest" duration-ms="8213" started-at="2019-05-31T08:14:48Z" data-provider="getUserTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.linksAccountToMailDropsTest" finished-at="2019-05-31T08:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b.p@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BP123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="createOpportunities(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createOpportunities" duration-ms="5574" started-at="2019-05-31T08:14:56Z" data-provider="getMileStoneTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.createUserTest" finished-at="2019-05-31T08:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MileStone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create one MileStone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunities -->
+        <test-method status="PASS" signature="createTrack(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createTrack" duration-ms="5215" started-at="2019-05-31T08:15:02Z" data-provider="getTracksTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.createOpportunities" finished-at="2019-05-31T08:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[track 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[task 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTrack -->
+        <test-method status="PASS" signature="createTaskCategory(java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createTaskCategory" duration-ms="4780" started-at="2019-05-31T08:15:07Z" data-provider="getTaskCatTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.createTrack" finished-at="2019-05-31T08:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskCategory -->
+        <test-method status="PASS" signature="createTaskCategory(java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createTaskCategory" duration-ms="5184" started-at="2019-05-31T08:15:12Z" data-provider="getTaskCatTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.createTrack" finished-at="2019-05-31T08:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskCategory -->
+        <test-method status="PASS" signature="custFieldsTest()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="custFieldsTest" duration-ms="813" started-at="2019-05-31T08:15:17Z" depends-on-methods="com.qa.testcases.AccountSettingTest.createTaskCategory" finished-at="2019-05-31T08:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custFieldsTest -->
+        <test-method status="PASS" signature="createTagsTest(java.lang.String)[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="createTagsTest" duration-ms="4366" started-at="2019-05-31T08:15:18Z" data-provider="geTagsTestData" depends-on-methods="com.qa.testcases.AccountSettingTest.custFieldsTest" finished-at="2019-05-31T08:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[social]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTagsTest -->
+        <test-method status="PASS" signature="IntegrationAndTrashTest()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="IntegrationAndTrashTest" duration-ms="2071" started-at="2019-05-31T08:15:22Z" depends-on-methods="com.qa.testcases.AccountSettingTest.createTagsTest" finished-at="2019-05-31T08:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntegrationAndTrashTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.AccountSettingTest@6e0e048a]" name="teardown" is-config="true" duration-ms="1057" started-at="2019-05-31T08:15:24Z" finished-at="2019-05-31T08:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.AccountSettingTest -->
+    </test> <!-- Capsule CRM Login-Account-Setting Test -->
+  </suite> <!-- Capsule CRM Application Automation Suite -->
+</testng-results>
